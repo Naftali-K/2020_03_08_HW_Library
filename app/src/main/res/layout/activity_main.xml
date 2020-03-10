@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/title_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title Book"/>
+
+        <EditText
+            android:id="@+id/author_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Author"/>
+
+        <EditText
+            android:id="@+id/date_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date"/>
+
+        <EditText
+            android:id="@+id/id_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id"/>
+
+        <EditText
+            android:id="@+id/descreption_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descreption"/>
+
+        <Button
+            android:id="@+id/add_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Book"/>
+
+        <Button
+            android:id="@+id/show_all_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show all books"/>
+
+    </LinearLayout>
+
+</ScrollView>
